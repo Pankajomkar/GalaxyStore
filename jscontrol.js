@@ -64,3 +64,12 @@ doubleclickMe.addEventListener('dblclick',function(){
 	doubleclickMe.textContent = "Hello";
 	doubleclickMe.style.color = 'blue';
 })
+
+
+//additonal functionality to change the color of h1 tag
+/*$('input').eq(0).keypress(function(evevnt){
+ if(event.which === 97 ){
+    $('h1').toggleClass('turnBlue')
+ }
+  console.log(event)
+})*/
